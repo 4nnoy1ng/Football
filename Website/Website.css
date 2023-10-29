@@ -1,0 +1,47 @@
+.blue {
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: absolute; 
+    right: 0px;
+    bottom: 0px;
+    
+
+}
+
+.purple {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 250px;
+    width: 1830px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.green {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+}
