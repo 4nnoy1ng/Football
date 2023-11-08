@@ -14,6 +14,7 @@ body{
 }
 
 .header {
+  position: relative;
   display: flex;
 }
 
@@ -29,16 +30,39 @@ body{
 }
 
 .subtitle {
-   margin-top: 30px;
+  margin-top: 30px;
   font-style: normal;
   font-weight: 200;
   font-size: 150px;
   color: #FFFFFF;
 }
 
+.source{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 350px;
+  width: 200px;
+  background: url(image.png);
+  background-image: url("./images/image\ 2.png");
+}
+
+.Tabellen{
+  position: absolute  ;
+  bottom: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 400;
+  left: 30px;
+  bottom: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .footballclubs{
   display: flex;
-  
+
 }
 
 .RedBullSalzburg{
@@ -50,8 +74,41 @@ body{
 }
 
 .Graz{
+  margin-left: 30px;
   height: 70px;
   width: 70px;
   background: url(image.png);
   background-image: url("./images/image\ 4.png");
+}
+
+.LASK{
+  margin-left: 30px;
+  height: 70px;
+  width: 70px;
+  background: url(image.png);
+  background-image: url("./images/image\ 5.png");
+}
+
+.Rapid{
+  margin-left: 30px;
+  height: 70px;
+  width: 70px;
+  background: url(image.png);
+  background-image: url("./images/image\ 6.png");
+}
+
+.Wien{
+  margin-left: 30px;
+  height: 70px;
+  width: 70px;
+  background: url(image.png);
+  background-image: url("./images/image\ 7.png");
+}
+
+.Klagenfurt{
+  margin-left: 30px;
+  height: 70px;
+  width: 70px;
+  background: url(image.png);
+  background-image: url("./images/image\ 8.png");
 }
