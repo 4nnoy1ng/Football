@@ -46,7 +46,6 @@
 .SecondHeader {
   top: 250px;
   left: 350px;
-  background-color: green;
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
   grid-template-rows: 12px;
