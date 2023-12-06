@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100;10..100,200;10..100,300;10..100,400;10..100,500;10..100,600;10..100,700;10..100,800;10..100,900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Itim&family=Jockey+One&family=Jura:wght@300;400;500;600;700&display=swap');
 
 .wrapper {
- 
   height: 100vh;
   width: 100vw;
   background: url(image.png);
   background-image: url("./images/background.jpg");
+  overflow-x: hidden; 
 }
 
 .header {
@@ -51,8 +51,8 @@
   top: 150px;
   left: 300px;
   display: grid;
-  grid-template-columns: 750px 150px 50px 50px 100px 150px 0px;
-  grid-template-rows: 12px;
+  grid-template-columns: 700px 150px 50px 50px 150px 150px 0px;
+  grid-template-rows: 50px;
 }
 
 .Verein {
